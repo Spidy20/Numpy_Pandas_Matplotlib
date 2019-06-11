@@ -10,10 +10,9 @@ print('3*2',a)
 
 # ###Reshape function
 c = np.array([[1,2,3],[4,5,6]])
-d = c.reshape(2,3)
-
+d = c.reshape(3,2)
 print ('After reshape-',d)
-
+#
 ##create & arrange array
 e = np.arange(24)
 print(e)

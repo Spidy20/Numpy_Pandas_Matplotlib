@@ -7,4 +7,4 @@ print ('\n'  )
 
 print ('Applying power function:' )
 print (np.power(a,3) )
-print ('\n'  )
+print ('\n')

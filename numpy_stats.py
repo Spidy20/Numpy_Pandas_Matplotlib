@@ -1,7 +1,6 @@
 import numpy as np
 from scipy import stats
-dataset= [1,1,2,3,4,6,18]
-
+dataset= [1,1,2,3,4,4,4,6,18,19]
 ##Mean: - Sum of elements / elements number
 
 #mean value
@@ -16,5 +15,3 @@ mode= stats.mode(dataset)
 print("Mean: ", mean)
 print("Median: ", median)
 print("Mode: ", mode)
-
-
